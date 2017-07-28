@@ -1,0 +1,16 @@
+.titulo{
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.costo{
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: white;
+    color: mediumaquamarine;
+    width: 40%;
+    height: auto;
+    margin-top: -40px;
+    padding: 5px;
+}

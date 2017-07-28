@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Handlebars</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="container center">
+            <div class="row gray-text" id="action"></div>
+        </div>
+        <script type="text/x-handlebars-template" id="index">
+            
+            {{#each caracteristicas}}
+            
+               <div class="col s3">
+                    <div class="titulo">
+                        <h5>{{{nombre}}}</h5> 
+                    </div>
+                    <div class="costo">{{{precio}}}</div>
+                    <button class="btn green">{{{entrar}}}</button>
+                    <p>{{{espacio}}}</p>
+                    <p>{{{trafic}}}</p>
+                    <p>{{{subdominios}}}</p>
+                    <p>{{{cuentas}}}</p>
+                    <p>{{{soporte}}}</p>
+                    <p>{{{sql}}}</p>
+                    <p>{{{php}}}</p>
+                    <p>{{{panel}}}</p>
+                    <p>{{{spam}}}</p>
+                    <hr>
+                    <div>{{{precio}}}</div>
+                    <button class="btn green">{{{entrar}}}</button>
+                </div> 
+            
+            
+            {{/each}}
+
+        </script>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+</html>
